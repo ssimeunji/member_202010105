@@ -13,5 +13,4 @@ public interface MemberRepository extends JpaRepository<MemberEntity, Long> {
         메서드 매개변수: String memberEmail
      */
     MemberEntity findByMemberEmail(String memberEmail);
-
 }
