@@ -123,6 +123,5 @@ public class MemberTest {
 
         List<MemberDetailDTO> list = ms.findAll();
         assertThat(list.size()).isEqualTo(3);
-
     }
 }
